@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/farine_de_mais"
+    tools:context=".BonAchat">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:background="@drawable/rectangle_1"
+        app:srcCompat="@drawable/bungaprod"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="32dp"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BON D'ACHAT/FACTURE"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="137dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/idn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="id/n"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="214dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/prenom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Prenom"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="364dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/nom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nom"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="288dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+        <EditText
+            android:id="@+id/tel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Tel"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="426dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/qte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Quantité Sac"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="288dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/prix_u"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Prix Unitaire"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="288dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/prix_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Prix total"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <ImageView
+            android:id="@+id/btn_valider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/comfir"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="573dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/btn_impr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/print"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="646dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

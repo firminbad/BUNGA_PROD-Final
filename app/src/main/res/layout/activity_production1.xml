@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/farine_de_mais"
+    tools:context=".Production">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRODUCTION"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangle_1"
+        android:textSize="39dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="100dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QTE STOCK = 25500"
+        android:textSize="39dp"
+        android:textStyle="bold"
+        android:layout_below="@id/txt"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/btn_modif"
+        android:layout_width="280dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/modifier"
+        tools:layout_editor_absoluteX="58dp"
+        android:layout_below="@+id/textView"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bnt_return"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+
+
+</LinearLayout>
